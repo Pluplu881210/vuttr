@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+
+.blue{
+    color: #52C1C9;
+}
+
+.btn-blue{
+    color: #fff;
+    background-color: #52C1C9;
+    border-color: #52C1C9;
+}
+
+.pink{
+    color: #ED4E84;
+}
+
+.darkblue{
+    color: #364F6B;
+}
+
+.none-decoration{
+    text-decoration: none;
+}
+
+.gray{
+    color: #BFBFBF;
+}
+
+.top-right-rad{
+    border-radius: 5px 20px 5px 5px;
+}
+
+.fr{
+    float: right;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+  }
+  
+  /* style glyph */
+  .inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+  }
+  
+  /* align glyph */
+  .left-addon .glyphicon  { left:  0px;}
+  .right-addon .glyphicon { right: 0px;}
+  
+  /* add padding  */
+  .left-addon input  { padding-left:  30px; }
+  .right-addon input { padding-right: 30px; }
+
+.form-check-input:checked{
+    background-color: #ED4E84;
+    border-color: #ED4E84;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

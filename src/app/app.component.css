@@ -1,0 +1,22 @@
+
+.example-chip-list {
+    width: 100%;
+}
+
+::ng-deep.mat-fab.mat-accent{
+    background-color: #52C1C9;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
+
+::ng-deep.mat-standard-chip .mat-chip-remove.mat-icon{
+    color: #ED4E84;
+}
+
+::ng-deep.mat-form-field-appearance-fill .mat-form-field-flex{
+    background-color: transparent;
+}
